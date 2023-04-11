@@ -1,0 +1,59 @@
+@import "~@edx/brand/paragon/fonts";
+@import "~@edx/brand/paragon/variables";
+@import "~@edx/paragon/scss/core/core";
+@import "~@edx/brand/paragon/overrides";
+
+@import "studio-header/header";
+@import "~@edx/frontend-component-footer/dist/footer";
+
+@import "proctored-exam-settings/proctoredExamSettings";
+@import "pages-and-resources/discussions/app-list/AppList";
+
+.btn-outline-primary{
+    color: #3fa9f5;
+    border-color: #3fa9f5;
+}
+
+.btn-outline-primary:hover{
+    color: white;
+    background-color: #3fa9f5;
+    border-color: #3fa9f5;
+}
+
+.site-header-desktop {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 0;
+    background: #303030;
+}
+
+.course-title-lockup span {
+    color: white;
+}
+
+.site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus, .site-header-desktop .main-nav .nav-link.active, .site-header-desktop .main-nav .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .site-header-desktop .main-nav .dropdown-toggle, .site-header-desktop .main-nav .expanded .nav-link {
+    background: transparent;
+    color: #80D5FB;
+}
+
+.nav-link, .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle{
+    color: white;
+    cursor: pointer;
+}
+
+.nav.secondary-menu-container .btn-outline-primary{
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.nav.secondary-menu-container .btn-outline-primary:hover{
+    color: #3fa9f5;
+    background-color: white;
+}
+
+.site-header-desktop .logo img{
+    width: 150px;
+    height: 38px;
+}
