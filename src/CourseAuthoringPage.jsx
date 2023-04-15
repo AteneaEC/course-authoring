@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Footer from '@edx/frontend-component-footer';
+// import Footer from '@edx/frontend-component-footer';
+import Footer from './footer/footer'
 import { useDispatch, useSelector } from 'react-redux';
 
 import {
