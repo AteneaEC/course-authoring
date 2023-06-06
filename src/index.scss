@@ -58,6 +58,22 @@
     height: 38px;
 }
 
+.pgn__card-header-actions path{
+    fill: #3fa9f5;
+}
+
+.btn-icon.btn-icon-primary:hover{
+  background-color: #3fa9f5;
+}
+
+.pgn__card-header-actions .btn-icon.btn-icon-primary:hover path{
+  fill: white;
+}
+
+.btn-icon.btn-icon-primary.focus, .btn-icon.btn-icon-primary:focus{
+  box-shadow: none;
+}
+
 /*! * Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */
 @font-face {
     font-family: FontAwesome;
